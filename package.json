@@ -1,0 +1,28 @@
+{
+  "name": "blogr-landing-page-main",
+  "version": "1.0.0",
+  "description": "my first tilewindcss challenge",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacitto/blogr-landing-page.git"
+  },
+  "author": "daci salah",
+  "license": "GNU v3.0",
+  "bugs": {
+    "url": "https://github.com/dacitto/blogr-landing-page/issues"
+  },
+  "homepage": "https://github.com/dacitto/blogr-landing-page#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  }
+}
